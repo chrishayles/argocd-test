@@ -5,7 +5,7 @@ metadata:
     app: nginxargotest
   name: nginx-argo
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: nginxargotest
